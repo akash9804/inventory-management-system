@@ -19,5 +19,6 @@ php artisan serve
 
 for reference Database file added to root folder DB File: axiever_erp.sql
 
-I have Also attcahed demo of Assigment just fr quick reference: https://drive.google.com/file/d/1Mi6pmiWndlYfFdCtMmRdBZjwV4hz3XyI/view?usp=sharing
+I have also attcahed demo of Assigment just for quick review of task,
+Please Watch the video here : https://drive.google.com/file/d/1Mi6pmiWndlYfFdCtMmRdBZjwV4hz3XyI/view?usp=sharing
 

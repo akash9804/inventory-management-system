@@ -16,6 +16,25 @@ npm install
 npm run dev
 php artisan serve
 
+#RUN API using CURL
+#Login to get Bearer Token
+curl --location 'http://127.0.0.1:8000/api/login' \
+--form 'email="admin@example.com"' \
+--form 'password="password"'
+
+#Get Product Details
+curl --location --request GET 'http://127.0.0.1:8000/api/products' \
+--header 'Authorization: Bearer 1|QNEn9WM3JZvCbvxAsdozBpy1F4S1YgnLVP6iq9AE65f41473' \
+--form 'email="admin@example.com"' \
+--form 'password="password"'
+
+#Get Sales Order Details
+
+curl --location --request GET 'http://127.0.0.1:8000/api/sales-orders/11' \
+--header 'Authorization: Bearer 1|QNEn9WM3JZvCbvxAsdozBpy1F4S1YgnLVP6iq9AE65f41473' \
+--form 'email="admin@example.com"' \
+--form 'password="password"'
+
 
 for reference Database file added to root folder DB File: axiever_erp.sql
 

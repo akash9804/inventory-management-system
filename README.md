@@ -1,4 +1,4 @@
-# AXIEVERERP System
+# Inventory Management System
 
 ## Requirements
 - PHP 8.x
